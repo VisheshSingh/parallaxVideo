@@ -3,3 +3,43 @@
     padding: 0;
     font-family: verdana;
 }
+
+#video-container{
+    width:100%;
+    height:600px;
+    overflow: hidden;
+}
+
+video{
+    min-width: 100%;
+    min-height: 100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: -1;
+    position: fixed;
+}
+
+#contents{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#contents h1{
+    font-size: 3em;
+    margin: 10px 0;
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contents p{
+    font-size: 1.2em;
+    line-height: 2em;
+    margin: 10px 0;
+    color:#fff;
+    text-align: center;
+}
