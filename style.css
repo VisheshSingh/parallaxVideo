@@ -85,3 +85,16 @@ section p{
     color:#fff;
     text-align: center;
 }
+
+footer{
+    height:100px;
+    color:#000;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: inherit;
+}
+
+footer p{
+    padding-top:45px;
+}
